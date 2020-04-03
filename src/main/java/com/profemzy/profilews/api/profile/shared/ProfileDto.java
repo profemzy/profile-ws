@@ -1,6 +1,6 @@
-package com.profemzy.profilews.api.profile.ui.model;
+package com.profemzy.profilews.api.profile.shared;
 
-public class ProfileResponseModel {
+public class ProfileDto {
     private String profileId;
     private String userId;
     private String address;
@@ -74,3 +74,4 @@ public class ProfileResponseModel {
         this.nokOccupation = nokOccupation;
     }
 }
+
